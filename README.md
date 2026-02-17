@@ -33,12 +33,12 @@ Unlike traditional RAG systems that rely on vector embeddings and semantic simil
 
 ## Features
 
-- 🌲 **Hierarchical Document Indexing**: Preserves document structure (Sections, Subsections, Appendices)
-- 🧭 **LLM-Powered Navigation**: Uses reasoning to find relevant sections
-- 🎯 **Precise Extraction**: Targets exact information, not similar-looking text
-- 🔗 **Cross-Reference Following**: Automatically navigates to referenced sections
-- 📊 **Transparent Reasoning**: Full navigation trace for auditability
-- 🔄 **Backtracking Support**: Can correct navigation mistakes
+-  **Hierarchical Document Indexing**: Preserves document structure (Sections, Subsections, Appendices)
+-  **LLM-Powered Navigation**: Uses reasoning to find relevant sections
+-  **Precise Extraction**: Targets exact information, not similar-looking text
+-  **Cross-Reference Following**: Automatically navigates to referenced sections
+-  **Transparent Reasoning**: Full navigation trace for auditability
+-  **Backtracking Support**: Can correct navigation mistakes
 
 ## Quick Start
 

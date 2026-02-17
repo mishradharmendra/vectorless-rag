@@ -1,0 +1,254 @@
+{
+  "document_id": "SOP-AP-2025",
+  "document_type": "Standard Operating Procedure",
+  "title": "Enterprise Assortment Planning & Inventory Management Guide",
+  "version": "2.1",
+  "effective_date": "2025-01-15",
+  "classification": "Business Critical",
+  "sections": {
+    "Section 1": {
+      "title": "Purpose and Scope",
+      "content": "This Standard Operating Procedure establishes requirements for assortment planning, inventory management, and markdown optimization across all retail locations. It applies to all personnel involved in product selection, pricing, and inventory control.",
+      "subsections": {
+        "1.1": {
+          "title": "Applicability",
+          "content": "This SOP applies to: (a) Category managers responsible for product selection, (b) Pricing analysts managing markdown decisions, (c) Inventory planners controlling stock levels, (d) Regional managers overseeing store operations. Non-compliance requires documented exception approval from the VP of Merchandising.",
+          "subsections": {}
+        },
+        "1.2": {
+          "title": "Business Objectives",
+          "content": "This procedure supports: Maximizing gross margin through optimal markdown timing, Reducing inventory shrinkage and waste, Ensuring product availability across all regions, Maintaining compliance with vendor agreements and regulatory requirements.",
+          "subsections": {}
+        }
+      }
+    },
+    "Section 2": {
+      "title": "Markdown Policies",
+      "content": "Standard markdown policies govern pricing reductions across all product categories to optimize inventory turnover while protecting gross margins.",
+      "subsections": {
+        "2.1": {
+          "title": "Standard Markdown Tiers",
+          "content": "All markdowns follow the approved tier structure based on days to expiration or days in inventory.",
+          "subsections": {
+            "2.1.1": {
+              "title": "Tier 1 - Initial Markdown",
+              "content": "Trigger: Item reaches 14 days before expiration OR 45 days in inventory for non-perishables. Action: Apply 15% markdown from regular price. Approval: Automatic by system, no manual approval required. Display: Move to clearance end-cap if available."
+            },
+            "2.1.2": {
+              "title": "Tier 2 - Intermediate Markdown",
+              "content": "Trigger: Item reaches 7 days before expiration OR 60 days in inventory for non-perishables. Action: Apply 30% markdown from regular price. Approval: Category manager notification required. Display: Move to dedicated markdown section."
+            },
+            "2.1.3": {
+              "title": "Tier 3 - Final Markdown",
+              "content": "Trigger: Item reaches 3 days before expiration OR 75 days in inventory for non-perishables. Action: Apply 50% markdown from regular price. Approval: Store manager approval required. Display: Front-of-store clearance or donation consideration."
+            },
+            "2.1.4": {
+              "title": "Emergency Markdown",
+              "content": "Trigger: Product quality concerns, recall situations, or seasonal transition. Action: Markdown up to 75% with VP Merchandising approval. Documentation: Requires Exception Form MD-100 with justification. Reporting: Must be included in weekly markdown variance report."
+            }
+          }
+        },
+        "2.2": {
+          "title": "Category-Specific Rules",
+          "content": "Certain categories have modified markdown policies due to product characteristics.",
+          "subsections": {
+            "2.2.1": {
+              "title": "Dairy Products",
+              "content": "Standard markdown begins 10 days before expiration (not 14). Tier progression: 10 days = 20%, 5 days = 35%, 2 days = 50%. Morning markdowns required (before 10 AM) to maximize same-day sales. Cross-merchandise with complementary items when possible."
+            },
+            "2.2.2": {
+              "title": "Fresh Produce",
+              "content": "Visual quality assessment required before markdown (use Quality Grade Card QGC-50). Grade A to Grade B transition: 25% markdown. Grade B to Grade C transition: 50% markdown. Below Grade C: Remove from sales floor, consider donation or disposal."
+            },
+            "2.2.3": {
+              "title": "Seasonal Items",
+              "content": "Seasonal merchandise follows accelerated markdown schedule starting 30 days before season end. Week 1: 25% markdown. Week 2: 40% markdown. Week 3: 60% markdown. Week 4: 75% markdown. Post-season: Pack away for next year or liquidate through secondary channels."
+            },
+            "2.2.4": {
+              "title": "Premium/Luxury Items",
+              "content": "Items with regular price above $100 require Regional Merchandising Manager approval for any markdown. Brand protection provisions may restrict markdown percentage per vendor agreement. Minimum margin of 15% must be maintained unless inventory exceeds 90 days."
+            }
+          }
+        },
+        "2.3": {
+          "title": "Regional Variance Rules",
+          "content": "Regional pricing adjustments account for competitive landscape and consumer preferences.",
+          "subsections": {
+            "2.3.1": {
+              "title": "Competitive Matching",
+              "content": "Stores within 3-mile radius of major competitor may apply additional 5% markdown without approval. Requires documentation of competitor pricing (photo or printed ad). Maximum competitive match: 60% total markdown. Weekly competitive survey required from Price Audit team."
+            },
+            "2.3.2": {
+              "title": "Demographic Adjustments",
+              "content": "Stores in Tier A locations (household income above $100K median): Slower markdown progression, focus on quality positioning. Tier B locations: Standard markdown schedule. Tier C locations: Accelerated markdowns, value-focused merchandising."
+            },
+            "2.3.3": {
+              "title": "Weather and Event Exceptions",
+              "content": "Severe weather events (declared by Operations Center): Delay markdowns on essential items. Local events (festivals, sports): May accelerate or delay markdowns on relevant categories. All exceptions documented in Regional Exception Log."
+            }
+          }
+        }
+      }
+    },
+    "Section 3": {
+      "title": "Inventory Management",
+      "content": "Inventory control procedures to optimize stock levels and minimize waste across all store locations.",
+      "subsections": {
+        "3.1": {
+          "title": "Reorder Points",
+          "content": "Automated reorder triggers based on product velocity and lead time.",
+          "subsections": {
+            "3.1.1": {
+              "title": "High-Velocity Items",
+              "content": "Items selling more than 50 units per week: Reorder point = 1.5x weekly sales. Safety stock = 1 week supply. Order frequency: 2-3 times per week minimum. Stockout tolerance: Zero, requires immediate expedited order if depleted."
+            },
+            "3.1.2": {
+              "title": "Medium-Velocity Items",
+              "content": "Items selling 10-50 units per week: Reorder point = 2x weekly sales. Safety stock = 1.5 week supply. Order frequency: Weekly. Stockout tolerance: 2 days maximum before escalation."
+            },
+            "3.1.3": {
+              "title": "Low-Velocity Items",
+              "content": "Items selling fewer than 10 units per week: Reorder point = 3x weekly sales. Safety stock = 2 week supply. Order frequency: Bi-weekly or monthly. Review threshold: Drop from assortment if velocity falls below 2 units/week for 8 consecutive weeks."
+            }
+          }
+        },
+        "3.2": {
+          "title": "Receiving and Quality Control",
+          "content": "Procedures for accepting deliveries and verifying product quality.",
+          "subsections": {
+            "3.2.1": {
+              "title": "Delivery Inspection",
+              "content": "All deliveries must be inspected within 2 hours of arrival. Check: Temperature log (perishables must be below 40F), package integrity, quantity vs. purchase order, expiration dates (minimum 75% shelf life remaining). Reject items not meeting standards, document on Receiving Report RR-100."
+            },
+            "3.2.2": {
+              "title": "Temperature Compliance",
+              "content": "Frozen items: Must be received at 0F or below. Refrigerated items: Must be received at 40F or below. Ambient items: Must be received at 85F or below. Temperature deviation requires Quality Assurance notification within 1 hour. Documentation retained for 90 days."
+            }
+          }
+        },
+        "3.3": {
+          "title": "Shrinkage Control",
+          "content": "Procedures to minimize inventory loss from theft, damage, and waste.",
+          "subsections": {
+            "3.3.1": {
+              "title": "Shrink Categories",
+              "content": "Track shrinkage by category: Administrative (paperwork errors), Operational (damage, waste), External (shoplifting), Internal (employee theft). Target shrink rate: Below 1.5% of sales for grocery, below 2.5% for general merchandise, below 0.8% for pharmacy."
+            },
+            "3.3.2": {
+              "title": "High-Shrink Items",
+              "content": "Items with shrink rate above 5%: Implement keeper cases or security tags. Require manager override for voids and returns. Weekly cycle count required. Consider removing from assortment if shrink cannot be controlled."
+            }
+          }
+        }
+      }
+    },
+    "Section 4": {
+      "title": "Assortment Planning",
+      "content": "Procedures for selecting and managing product assortment to maximize sales and customer satisfaction.",
+      "subsections": {
+        "4.1": {
+          "title": "Product Selection Criteria",
+          "content": "New items must meet minimum thresholds for inclusion in assortment.",
+          "subsections": {
+            "4.1.1": {
+              "title": "Financial Requirements",
+              "content": "Minimum gross margin: 25% for grocery, 35% for general merchandise, 20% for perishables. Minimum projected annual sales: $5,000 per SKU per store. Vendor payment terms: Net 30 minimum required. Slotting fees: May be negotiated for premium placement."
+            },
+            "4.1.2": {
+              "title": "Operational Requirements",
+              "content": "Minimum shelf life at delivery: 75% of total shelf life. Case pack configuration: Must fit standard shelf dimensions. UPC compliance: Required for all items. EDI capability: Required for vendors supplying more than 20 SKUs."
+            },
+            "4.1.3": {
+              "title": "Strategic Alignment",
+              "content": "New items should: Fill customer need gaps identified in market research, complement existing assortment without excessive cannibalization (maximum 15% expected), support seasonal or promotional strategies, align with brand positioning for store tier."
+            }
+          }
+        },
+        "4.2": {
+          "title": "Space Allocation",
+          "content": "Planogram compliance and space optimization guidelines.",
+          "subsections": {
+            "4.2.1": {
+              "title": "Planogram Standards",
+              "content": "Stores must achieve 95% planogram compliance on audits. Space-to-sales ratio target: Within 5% of category contribution. Eye-level placement reserved for high-margin or promoted items. Minimum facings: Based on velocity tier (high = 3, medium = 2, low = 1)."
+            },
+            "4.2.2": {
+              "title": "Local Assortment Flex",
+              "content": "Stores may request up to 10% local assortment variation. Requires Regional Category Manager approval. Local items must meet minimum financial requirements. Performance review at 90 days, discontinue if below threshold."
+            }
+          }
+        },
+        "4.3": {
+          "title": "Discontinuation Process",
+          "content": "Procedures for removing items from assortment.",
+          "subsections": {
+            "4.3.1": {
+              "title": "Discontinuation Triggers",
+              "content": "Items flagged for discontinuation review: Sales below $2,500 annually per store, gross margin below category minimum for 3 consecutive months, shrink rate above 7%, vendor out of stock more than 4 weeks in 12-month period, quality issues or recalls."
+            },
+            "4.3.2": {
+              "title": "Exit Process",
+              "content": "Upon discontinuation decision: Stop future orders immediately, apply progressive markdown to remaining inventory (see Section 2.1), target zero inventory within 60 days, update planogram within next reset cycle, communicate to stores via Item Status Update."
+            }
+          }
+        }
+      }
+    },
+    "Section 5": {
+      "title": "Vendor Management",
+      "content": "Procedures for managing vendor relationships and performance.",
+      "subsections": {
+        "5.1": {
+          "title": "Vendor Performance Metrics",
+          "content": "Key metrics tracked for all vendors: Fill rate (target: 98%), On-time delivery (target: 95% within 24-hour window), Quality defect rate (target: below 0.5%), Invoice accuracy (target: 99%). Vendors failing to meet metrics for 3 consecutive months placed on performance improvement plan.",
+          "subsections": {}
+        },
+        "5.2": {
+          "title": "New Vendor Onboarding",
+          "content": "New vendor requirements: Complete Vendor Agreement VA-100, provide certificate of insurance (minimum $2M liability), pass quality audit for perishable vendors, set up EDI connection within 60 days, complete food safety training for produce/meat vendors.",
+          "subsections": {}
+        },
+        "5.3": {
+          "title": "Promotional Coordination",
+          "content": "Vendor-funded promotions require: 6-week advance notice for ad features, confirmation of inventory availability, agreed-upon markdown funding or scan allowance, execution compliance verification at store level. Post-promotion analysis required within 2 weeks of completion.",
+          "subsections": {}
+        }
+      }
+    },
+    "Section 6": {
+      "title": "Compliance and Reporting",
+      "content": "Documentation and reporting requirements for assortment and inventory management.",
+      "subsections": {
+        "6.1": {
+          "title": "Required Reports",
+          "content": "Daily: Out-of-stock report, receiving exceptions. Weekly: Markdown variance report, shrink report by category, vendor fill rate summary. Monthly: Assortment review with discontinued items, margin analysis by category. Quarterly: Full inventory reconciliation, planogram compliance audit.",
+          "subsections": {}
+        },
+        "6.2": {
+          "title": "Audit Requirements",
+          "content": "Internal audit conducts annual review of: Markdown authorization compliance, inventory accuracy, planogram compliance, vendor agreement adherence. Findings documented in Audit Report AR-100, corrective actions required within 30 days.",
+          "subsections": {}
+        },
+        "6.3": {
+          "title": "Record Retention",
+          "content": "Maintain records for minimum periods: Purchase orders: 7 years. Receiving documents: 3 years. Markdown authorizations: 3 years. Vendor agreements: Duration plus 5 years. Quality inspection records: 2 years. Inventory counts: 3 years.",
+          "subsections": {}
+        }
+      }
+    }
+  },
+  "appendices": {
+    "Appendix A": {
+      "title": "Forms and Checklists",
+      "content": "Required forms: MD-100 Markdown Exception Request, RR-100 Receiving Report, VA-100 Vendor Agreement, AR-100 Audit Report, QGC-50 Quality Grade Card. All forms available on company intranet under Operations > Forms > Inventory Management."
+    },
+    "Appendix B": {
+      "title": "Contact Information",
+      "content": "VP Merchandising: merchandising@company.com. Regional Category Managers: See distribution list RM-CAT. Quality Assurance Hotline: (555) 234-5678. Vendor Relations: vendor.relations@company.com. Inventory Control Support: inventory.support@company.com."
+    },
+    "Appendix C": {
+      "title": "Reference Documents",
+      "content": "Related Procedures: PROMO-100 Promotional Planning Guide, PLAN-200 Planogram Standards, RECV-100 Receiving Procedures. System References: ERP Inventory Module User Guide, Markdown Management System Training Manual, Vendor Portal Quick Reference."
+    }
+  }
+}
